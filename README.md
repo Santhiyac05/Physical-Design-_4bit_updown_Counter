@@ -92,6 +92,7 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1084" height="609" alt="image" src="https://github.com/user-attachments/assets/72168ff0-2540-4790-8eda-3df397623787" />
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
 • Once all the process is done, Click on “Save&Close” and save the script generated with any name of your choice. 
@@ -182,10 +183,12 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
-
+<img width="1092" height="610" alt="image" src="https://github.com/user-attachments/assets/096511f8-4433-47e8-86c8-6a97bca863d0" />
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1081" height="613" alt="image" src="https://github.com/user-attachments/assets/1d7011df-649d-43a8-8455-e9cdc20735ea" />
+
 
 ## Result
 
