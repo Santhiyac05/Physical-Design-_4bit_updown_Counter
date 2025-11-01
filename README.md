@@ -68,31 +68,30 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
-
+<img width="1087" height="610" alt="image" src="https://github.com/user-attachments/assets/0ac0ab38-cfb1-4adc-999f-46927867e463" />
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
-
+<img width="1085" height="609" alt="image" src="https://github.com/user-attachments/assets/1a4e390c-5a1d-46ac-b927-dab173d3b630" />
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
-
+<img width="1085" height="609" alt="image" src="https://github.com/user-attachments/assets/c91a1f7d-49f9-4c09-b8f5-fa71dd0e004e" />
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
-
+<img width="1082" height="612" alt="image" src="https://github.com/user-attachments/assets/326a4eb0-dcb8-4e06-b8ef-ea4c0f46753b" />
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
-
+<img width="1599" height="897" alt="image" src="https://github.com/user-attachments/assets/ca49f0ee-a2f1-4680-b688-e5a5842ca77d" />
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
-
+<img width="1084" height="610" alt="image" src="https://github.com/user-attachments/assets/f52813a6-fef9-4598-a867-80439d21c8de" />
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
-
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
 • Once all the process is done, Click on “Save&Close” and save the script generated with any name of your choice. 
@@ -106,7 +105,7 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
-
+<img width="1091" height="611" alt="image" src="https://github.com/user-attachments/assets/455f4256-bf9a-4d32-90b9-819860fbb234" />
 ### Fig.8 Core area
 
 • The internal area of the box is called “Core Area”. 
@@ -126,6 +125,7 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1091" height="605" alt="image" src="https://github.com/user-attachments/assets/7cc2ffc9-3cab-41ce-ab39-57c60cb3aaf4" />
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,7 +170,7 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
-
+<img width="1082" height="607" alt="image" src="https://github.com/user-attachments/assets/2caa7396-4715-48b0-95cf-d9c9d3de90bc" />
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
